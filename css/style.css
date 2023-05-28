@@ -1,7 +1,7 @@
 body {
   font-size: 1rem;
   line-height: 1.25;
-  background-color: #dee7ff;
+  background-color: #fff;
 }
 .container {
   max-width: 900px;
@@ -609,17 +609,24 @@ body {
 }
 .post .post-item .post-wrap .post-content {
   position: relative;
-  padding: 20px;
-  height: 180px;
+  padding-top: 2rem;
+  text-align: center;
+  height: 150px;
+}
+.post .post-item .post-wrap .post-content .post-info {
+  position: absolute;
+  padding-left: 1rem;
+  bottom: 20px;
+}
+.post .post-item .post-wrap .post-content .post-info .post-info-item {
+  margin-right: 1rem;
 }
 .post .post-item .post-wrap .post-content-wrap {
   height: 4rem;
   overflow: hidden;
 }
-.post .post-item .post-wrap .post-content .post-info {
-  position: absolute;
-  bottom: 20px;
-  color: var(--color-text-third);
+.post .post-item .post-wrap .post-title {
+  font-size: 1em;
 }
 @media screen and (max-width: 420px) {
   a.menu1-item2-link2 {
