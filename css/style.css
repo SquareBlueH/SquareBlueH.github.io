@@ -609,8 +609,6 @@ body {
 }
 .post .post-item .post-wrap .post-content {
   position: relative;
-  padding-top: 2rem;
-  text-align: center;
   height: 150px;
 }
 .post .post-item .post-wrap .post-content .post-info {
@@ -621,12 +619,22 @@ body {
 .post .post-item .post-wrap .post-content .post-info .post-info-item {
   margin-right: 1rem;
 }
+.post .post-item .post-wrap .post-content .post-referral {
+  position: absolute;
+  padding-left: 1rem;
+  bottom: 40px;
+  text-indent: 2rem;
+}
+.post .post-item .post-wrap .post-content .post-referral .post-referral-item {
+  margin-right: 1rem;
+}
 .post .post-item .post-wrap .post-content-wrap {
-  height: 4rem;
+  margin: 1rem;
+  text-align: center;
   overflow: hidden;
 }
 .post .post-item .post-wrap .post-title {
-  font-size: 1em;
+  font-size: 1.3rem;
 }
 @media screen and (max-width: 420px) {
   a.menu1-item2-link2 {
